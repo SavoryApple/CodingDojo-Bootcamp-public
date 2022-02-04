@@ -1,0 +1,31 @@
+.header {
+    color: gray;
+    margin-left: 340px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbox {
+    background-color: lightseagreen;
+height: 200px;
+width: 850px;
+margin: 15px;
+display: flex;
+justify-content: space-evenly;
+}
+.middlebox {
+    background-color: lightpink;
+height: 200px;
+width: 850px;
+margin: 15px;
+display: flex;
+justify-content: space-evenly;
+}
+.bottombox {
+    background-color: lightyellow;
+height: 200px;
+width: 850px;
+margin: 15px;
+display: flex;
+justify-content: space-evenly;
+}
+
