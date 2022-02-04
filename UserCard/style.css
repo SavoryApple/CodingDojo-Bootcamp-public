@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+   
+    
+}
+.container {
+    margin-left: 100px;
+    margin-top: 35px;
+    width: 700px;
+    height: 450px;
+    border-right: 3px solid gray;
+    border-left: 3px solid gray;
+    border-bottom: 3px solid gray;
+    border-radius: 10px;
+}
+.banner {
+    background-color: rgb(6, 184, 184);
+    width: 702px;
+    height: 150px;
+    border: 2px solid rgb(6, 184, 184);
+    border-radius: 5px;
+    margin-left: -3px;
+  
+    
+}
+.navbarleft {
+    text-decoration: none;
+}
+
+.usercircle {
+    
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 55px;
+}
+.mapmarker {
+    width: 15x;
+    height: 25px;
+    
+}
+.markertext {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   
+    
+}
+.content {
+    margin-top: -65px;
+    padding-left: 20px;
+    height: 300px;
+    width: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;  
+    justify-content: space-between;
+    
+}
+.gear {
+    color: darkblue;
+    width: 15px;
+    height: 15px;
+}
+.editprofile {
+    color: darkblue;
+}
+.p1 {
+    line-height: 1.3em;
+    
+}
+.nav {
+    height: 75px;
+    width: 1595px;
+    
+    border: 3px solid gray;
+    
+    
+    background-color: black;
+    display: flex;
+    align-content: center;
+    
+    justify-content: left;
+    
+}
+.nav-title {
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+.nav-links {
+    
+    color: white;
+    list-style-type: none;
+    width: 50vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    right: 50px;
+    
+    gap: 20px;
+    
+   
+}
+a:link {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.btn {
+    background-color: aqua;
+    font-size: 18px;
+    color: white;
+    border: 3px solid black;
+  
+    box-shadow: 2px 2px black;
+}
