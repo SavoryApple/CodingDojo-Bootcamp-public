@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainbox {
+    height: 750px;
+    width: 750px;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.topBanner {
+    width: 750px;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.topBanner h1 {
+    color: white;
+    margin-left: 20px;
+}
+.topBannerb {
+    width: 750px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topBannerb h2 {
+    font-size: 35px;
+}
+.mainContent {
+    height: 600px;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+}
+.mainContentA {
+    height: 600px;
+    width: 200px;
+}
+.mainContentA1 {
+    width: 200px;
+    height: 350px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mainContentA1 img {
+    height: 100px;
+    width: 100px;
+}
+.mainContentA1 a:link {
+    font-size: 20px;
+}
+.mainContentA1 p {
+    font-size: 30px;
+}
+.mainContentB {
+    height: 600px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.mainContentB1 {
+    height: 185px;
+    width: 515px;
+    border: 3px solid black;
+}
+.mainContentB1A {
+    height: 85px;
+    width: 515px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.mainContentB1B {
+    height: 100px;
+    width: 515px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainContentB1B p {
+    font-size: 23px;
+}
+.mainContentB2 {
+    height: 185px;
+    width: 515px;
+    border: 3px solid black;
+}
+.mainContentB2 p {
+    font-size: 23px;
+}
+.mainContentB3 {
+    height: 185px;
+    width: 515px;
+    border: 3px solid black;
+}
+.mainContentB3 p {
+    font-size: 23px;
+}
+.mainContentB1A1 {
+    width: 380px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainContentB1A1 p {
+    font-size: 20px;
+}
+.mainContentB2A1 p {
+    font-size: 20px;
+}
+.mainContentB3A1 p {
+    font-size: 20px;
+}
+.mainContentB2A {
+    height: 85px;
+    width: 515px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.mainContentB3A {
+    height: 85px;
+    width: 515px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.mainContentB3B {
+    height: 100px;
+    width: 515px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainContentB2B p{
+    font-size: 23px;
+}
+.mainContentB2B {
+    height: 100px;
+    width: 515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mainContentB1A2 {
+    width: 115px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.likeButton1 {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(233, 154, 50);
+    padding: 10px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 2px black;
+    
+}
+.likeButton2 {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(233, 154, 50);
+    padding: 10px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 2px black;
+}
+.likeButton3 {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(233, 154, 50);
+    padding: 10px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 2px black;
+}
+.mainContentB2A1 {
+    width: 380px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainContentB2A2 {
+    width: 115px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContentB3A1 {
+    width: 380px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainContentB3A2 {
+    width: 115px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
