@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+    width: 1000px;
+    height: 750px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.navbar {
+    width: 1000px;
+    height: 100px;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+}
+.navbarA {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbarA h1 {
+    font-size: 50px;
+    color: white;
+}
+.navbarB {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbarB a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.navbarB a:link:visited {
+    color: white;
+}
+.navbarB a:hover {
+    color: blue;
+    transform: scale(1.15);
+}
+.content {
+    width: 800px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+.contentBanner {
+    width: 800px;
+    height: 100px;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+
+}
+.contentBannerA {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contentBannerA h2 {
+    font-size: 40px;
+}
+.contentBannerB {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contentBannerB p {
+    margin-right: 5px;
+}
+#dropdown {
+    padding: 5px;
+}
+.contentMain {
+    width: 650 px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contentMainA {
+    width: 180px;
+    height: 375px;
+    background-color: rgb(233, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentMainB {
+    width: 180px;
+    height: 375px;
+    background-color: rgb(233, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentMainC {
+    width: 180px;
+    height: 375px;
+    background-color: rgb(233, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentMainD {
+    width: 180px;
+    height: 375px;
+    background-color: rgb(233, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentMain1 {
+    height: 375px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contentMainAbottom {
+    width: 240px;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contentMainAtop {
+    width: 240px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contentMainBbottom {
+    width: 240px;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contentMainBtop {
+    width: 240px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contentMainCbottom {
+    width: 240px;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contentMainCtop {
+    width: 240px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contentMain2 {
+    position: fixed;
+}
+.cookiePopup {
+    height: 125px;
+    width: 800px;
+    background-color: rgb(233, 231, 231);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cookiePopup div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+.cookieButton {
+    padding: 10px;
+    background-color: lightseagreen;
+    font-size: 15px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 2px black;
+    
+}
+.rain {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+}
+.hightemp1 {
+    font-size: 25px;
+    color: red;
+}
+.lowtemp1 {
+    font-size: 25px;
+    color: blue;
+}
+.contentMainDbottom {
+    width: 240px;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hightemp2 {
+    font-size: 25px;
+    color: red;
+}
+.lowtemp2 {
+    font-size: 25px;
+    color: blue;
+}
+.hightemp3 {
+    font-size: 25px;
+    color: red;
+}
+.lowtemp3 {
+    font-size: 25px;
+    color: blue;
+}
+.hightemp4 {
+    font-size: 25px;
+    color: red;
+}
+.lowtemp4 {
+    font-size: 25px;
+    color: blue;
+}

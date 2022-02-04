@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="navbarA">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class="navbarB">
+                <a onclick="alert('Loading weather report...')" href="#">Burbank</a>
+                <a onclick="alert('Loading weather report...')" href="#">Chicago</a>
+                <a onclick="alert('Loading weather report...')" href="#">Dallas</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentBanner">
+                <div class="contentBannerA">
+                    <h2>San Jose</h2>
+                </div>
+                <div class="contentBannerB">
+                    <p>show temperatures in</p>
+                    <select class="dropdown" name="dropdown" onchange="idOptions(this)">
+                        <option value="C" class="C">
+                            <span>&#176;C</span>
+                        </option>
+                        <option value="F" class="F">
+                            <span>&#176;F</span>
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <div class="contentMain">
+                <div class="contentMain1">
+                    <div class="contentMainA">
+                        <div class="contentMainAtop">
+                            <h2 style="font-size: 28px;">Today</h2>
+                            <img class="rain" src="rain.png" alt="rain">
+                            <p style="font-size: 20px;">some rain</p>
+                        </div>
+                        <div class="contentMainAbottom">
+                            <p>
+                                <span class="lowtemp1">18&#176;</span>
+                            </p>
+                            <p>
+                                <span class="hightemp1">24&#176;</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contentMainB">
+                        <div class="contentMainBtop">
+                            <h2 style="font-size: 28px;">Tomorrow</h2>
+                            <img class="rain" src="sun.png" alt="rain">
+                            <p style="font-size: 20px;">some sun</p>
+                        </div>
+                        <div class="contentMainBbottom">
+                            <p>
+                                <span class="lowtemp2">19&#176;</span>
+                            </p>
+                            <p>
+                                <span class="hightemp2">27&#176;</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contentMainC">
+                        <div class="contentMainCtop">
+                            <h2 style="font-size: 28px;">Thursday</h2>
+                            <img class="rain" src="clouds.png" alt="rain">
+                            <p style="font-size: 20px;">some clouds</p>
+                        </div>
+                        <div class="contentMainCbottom">
+                            <p>
+                                <span class="lowtemp3">16&#176;</span>
+                            </p>
+                            <p>
+                                <span class="hightemp3">23&#176;</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contentMainD">
+                        <div class="contentMainCtop">
+                            <h2 style="font-size: 28px;">Friday</h2>
+                            <img class="rain" src="sun.png" alt="rain">
+                            <p style="font-size: 20px;">some sun</p>
+                        </div>
+                        <div class="contentMainDbottom">
+                            <p>
+                                <span class="lowtemp4">17&#176;</span>
+                            </p>
+                            <p>
+                                <span class="hightemp4">25&#176;</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentMain2">
+                    <div class="cookiePopup">
+                    <img src="cookie.png" alt="cookie">
+                        <div>
+                        <h2>Stop! Cookie time</h2>
+                        <p>We use cookies (sadly not the edible ones) to personalize <br>
+                        content and ads, to provide social media features and to <br>
+                    analyze our traffic. <a href="#">Read more...</a>
+                        </p>
+                        </div>
+                    
+                    <button class="cookieButton" onclick="removeCookie()">I Accept</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
