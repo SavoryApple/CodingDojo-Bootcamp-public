@@ -1,0 +1,179 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    height: 750px;
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.topnav {
+    background-color: gray;
+    height: 100px;
+    width: 1150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+#search {
+    height: 40px;
+    width: 400px;
+    font-size: 25px;
+    border: 3px solid black;
+}
+.dojonary {
+    font-size: 50px;
+    line-height: 100px;
+}
+.login {
+    border: 3px solid black;
+    text-decoration: none;
+    height: 50px;
+    width: 120px;
+    font-size: 25px;
+    background-color: rgb(13, 13, 179);
+    line-height: 40px;
+    text-align: center;
+    box-shadow: 5px 5px 1px black; 
+    color: white;
+}
+button:visited.login {
+    color: white;
+}
+button:hover.login {
+    color: red;
+}
+.maincontent {
+    height: 650px;
+    width: 1150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftcontent {
+    width: 750px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.rightcontent {
+    width: 400px;
+    height: 600px;
+}
+
+
+.upperbox {
+    height: 275px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+}
+.lowerbox {
+    height: 275px;
+    width: 700px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.upperbox2 {
+    border: 3px solid black;
+    width: 400px;
+    height: 250px;
+}
+.upperboxa {
+    height: 275px;
+    width: 275px;
+}
+.upperboxb {
+    height: 275px;
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upperboxa1 {
+    height: 165px;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.upperboxa2 {
+    height: 110px;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upperbox2a {
+    width: 400px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.upperbox2b {
+    width: 400px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: tan;
+    border: 3px solid black;
+    box-shadow: 5px 5px 1px black; 
+    font-size: 20px;
+}
+.button2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: tan;
+    border: 3px solid black;
+    box-shadow: 5px 5px 1px black; 
+    font-size: 20px;
+}
+.button3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: tan;
+    border: 3px solid black;
+    box-shadow: 5px 5px 1px black; 
+    font-size: 35px;
+}
+.dojonaryp {
+    font-size: 35px;
+    position: relative;
+    left: 55px;
+}
